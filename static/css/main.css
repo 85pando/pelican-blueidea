@@ -13,15 +13,32 @@
 @import url("reset.css");
 @import url("pygment.css");
 @import url("typogrify.css");
-@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
+
+/* Don't use Google Fonts, store this locally. https://google-webfonts-helper.herokuapp.com/fonts/yanone-kaffeesatz?subsets=latin */
+/* @import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin); */
+/* yanone-kaffeesatz-regular - latin */
+@font-face {
+  font-family: 'Yanone Kaffeesatz Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/yanone-kaffeesatz-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'),
+       url('../fonts/yanone-kaffeesatz-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yanone-kaffeesatz-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/yanone-kaffeesatz-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yanone-kaffeesatz-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yanone-kaffeesatz-v7-latin-regular.svg#YanoneKaffeesatz') format('svg'); /* Legacy iOS */
+}
+
+
 
 /***** Global *****/
 /* Body */
 body {
     background: #f2f3f3;
     color: #000305;
-    font-size: 87.5%; /* Base font size: 14px */
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100.0%; /* Base font size: 14px */
+    font-family: 'Yanone Kaffeesatz';
     line-height: 1.429;
     margin: 0;
     padding: 0;
