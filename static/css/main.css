@@ -395,6 +395,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		#extras .social a[href*='groups.google.com'] {background-image: url('../images/icons/google-plus.png');}
 		#extras .social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
 		#extras .social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
+		#extras .social a[href*='nerdpol.ch'] {background-image: url('../images/icons/diaspora.png');}
 		#extras .social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
 		#extras .social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
 		#extras .social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
