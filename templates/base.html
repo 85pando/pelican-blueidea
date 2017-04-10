@@ -61,6 +61,12 @@
         {% block content %}
         {% endblock %}
         <section id="extras" class="body">
+        {% if LICENSE %}
+                <div class="license">
+                    <h2>license</h2>
+                    {{ LICENSE }}
+                </div> <!-- /.license-->
+        {% endif %}
         {% if LINKS %}
                 <div class="blogroll">
                         <h2>blogroll</h2>

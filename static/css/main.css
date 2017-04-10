@@ -366,6 +366,13 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
 #extras a:hover, #extras a:active {background: #008db8; color: #fff;}
 
+    /* License */
+    #extras .license {
+        color: #fff;
+        float: left;
+        width: 800px;
+    }
+
 	/* Blogroll */
 	#extras .blogroll {
 		float: left;
